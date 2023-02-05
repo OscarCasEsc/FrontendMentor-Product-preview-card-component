@@ -96,5 +96,22 @@ button:hover {
     background-color: hsl(228, 12%, 48%);
 }
 
+@media only screen and (max-width:375px)  {
+    body{
+        width: unset;
+        height: unset;
+        display: block;
+        padding: 20px;
+    }
+    main {
+        flex-direction: column;
+        width: auto;
+        height: unset;
+    }
+    main img {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: unset;
+    }
+}
 
 
